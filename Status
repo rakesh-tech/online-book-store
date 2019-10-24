@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>status</title>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color:lightgrey;
+}
+
+header {
+    padding: 1em;
+    color: black;
+    background-color:rgba(50,50,140,0.9);
+}
+ 
+footer {
+    padding: 1em;
+    color: black;
+    background-color:rgba(50,50,140,0.9);
+    text-align:center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: disc;
+    padding: 0;
+    text-decoration:underline
+}
+   
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header><center>
+   <p style="color:red;font-family:algerian">IGBooks Publisher</p>
+  <img src="logo.png" alt="Logo" style="width:90px;height:90px;" >
+  </center>
+</header>
+  
+<nav>
+  <ul style="text-decoration:underline">
+    <li><a href="homepage.htm">Home</a></li>
+    <li><a href="books.htm">Books</a></li>
+    <li><a href="purchase.htm">Purchase</a></li>
+    <li><a href="status.htm">Status of purchase</a></li>
+    <li><a href="feedback.htm">Feedback</a></li>  
+</ul>
+</nav>
+
+<article><center>
+ <h3>Status Of Orders Received By Us:</h3><br>
+ <img src="image.png" alt="bookimg" style="width:100px;length:100px">
+<pre>Arriving tuesday. On the Way.
+Total amount to be paid: Rs 600
+Shipped By: Bluedart
+ORDER # 402-5867402-4577916 
+Order Placed on:  17 April 2018
+</pre>
+<br><br><br>
+ 
+<img src="images.png" alt="bookimg" style="width:100px;length:100px">
+ <pre>Delivered
+Amount: Rs 2485
+Shipped By: Delhivery
+ORDER #  408-6025538-0189104
+Order Placed on:   26 March 2018
+</pre>
+  
+</center> 
+
+</article>
+
+<footer>WD#raks <br> Copyright &copy;IGBooks.co.in</footer>
+
+</div>
+
+</body>
+</html>
+
+
+
