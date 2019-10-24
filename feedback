@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>feedback</title>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color:none;
+}
+
+header {
+    padding: 1em;
+    color: black;
+    background-color:rgba(50,50,140,0.9);
+}
+ 
+footer {
+    padding: 1em;
+    color: black;
+    background-color:rgba(50,50,140,0.9);
+    text-align:center;
+}
+
+nav {
+    float: left;
+    margin: 0;
+    padding: 1em;
+    
+}
+
+nav ul {
+    list-style-type:disc;
+    padding: 0;
+    text-decoration:underline;
+    float:left;
+}
+   
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div>
+
+<header><center>
+   <p style="color:red;font-family:algerian">IGBooks Publisher</p>
+  <img src="logo.png" alt="Logo" style="width:90px;height:90px;" >
+  </center>
+</header>
+  
+<nav >
+  <ul>
+    <li><a href="homepage.htm">Home</a></li>
+    <li><a href="books.htm">Books</a></li>
+    <li><a href="purchase.htm">Purchase</a></li>
+    <li><a href="status.htm">Status of purchase</a></li>
+    <li><a href="feedback.htm">Feedback</a></li>  
+</ul>
+</nav>
+
+<article >
+
+  <h2 style="text-decoration:underline">Feedback Form</h2>
+  <img src="feedback.jpg" style="width:60%;length:200%;float:right;">
+<form>
+  <u> First Name</u>:<br>
+  <input type="text" name="fname" placeholder="first name">
+  <br><br>
+   <u>Last Name</u>:<br>
+   <input type"text" name="lname" placeholder="last name">
+   <br><br>
+  <u>Last Book Purchased</u>:<br>
+  <input type="text" name="last purchased" >
+  <br><br>
+  <u>Email</u>:<br>
+  <input type="email" name="mail" placeholder="email">
+  <br><br>
+  <u>Feedback on the Book</u>:<br>
+  <textarea name="feedback" rows="8" cols="40" placeholder="feedback"> </textarea>
+  <br><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+  </form> 
+
+</article>
+
+<footer>WD#raks <br> Copyright &copy;IGBooks.co.in</footer>
+
+</div>
+
+</body>
+</html>
+
+
+
