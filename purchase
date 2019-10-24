@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>purchase</title>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color:lightgrey;
+}
+
+header {
+    padding: 1em;
+    color: black;
+    background-color:rgba(50,50,140,0.9);
+    float:center;
+}
+ 
+footer {
+    padding: 1em;
+    color: black;
+    background-color:rgba(50,50,140,0.9);
+    text-align:center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: disc;
+    padding: 0;
+    text-decoration:underline
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header><center>
+   <p style="color:red;font-family:algerian">IGBooks Publisher</p>
+  <img src="logo.png" alt="Logo" style="width:90px;height:90px;" >
+ </center>
+</header>
+  
+<nav>
+  <ul style="text-decoration:underline">
+    <li><a href="homepage.htm">Home</a></li>
+    <li><a href="books.htm">Books</a></li>
+    <li><a href="purchase.htm">Purchase</a></li>
+    <li><a href="status.htm">Status of purchase</a></li>
+    <li><a href="feedback.htm">Feedback</a></li>  
+</ul>
+</nav>
+
+<article style="background-image:url('http://assets1.blurb.com/pages/website-assets/blurb-fb-asset-1200x630-5c51cb9fe83918922dbbd775e81e808142a4253120248accd617574590b54fcb.jpg')" >
+   <input type="submit" value="Sign Up" form="form1" style="float:right;font-size:20px;" > 
+  <h1 style="font-size:30px"><u>Login<u></h1>
+  
+<form style="font-size:20px">
+  Username:<br>
+  <input type="text" name="Username" value="" autocomplete="on" placeholder="username">
+  <br>
+  password:<br>
+  <input type="password" name="password" value="" placeholder="password">
+  <br>
+  Select Category:<br>
+  <select name="category">
+   <option value="JAVA">JAVA</option>
+   <option value="VISUAL BASIC">VISUAL BASIC</option>
+   <option value="MICROPROCESSOR">MICROPROCESSOR</option>
+  </select><br><br> 
+  <input type="submit" value="Login">
+  <input type="reset">
+</form> 
+<br><br><br><br><br><br><br>
+</article>
+
+<footer>WD#raks <br> Copyright &copy;IGBooks.co.in</footer>
+
+</div>
+
+</body>
+</html>
+
+
+
