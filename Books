@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>Books</title>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color:lightgrey;
+}
+
+header {
+    padding: 1em;
+    color: black;
+    background-color:rgba(50,50,140,0.9);
+}
+ 
+footer {
+    padding: 1em;
+    color: black;
+    background-color:rgba(50,50,140,0.9);
+    text-align:center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: disc;
+    padding: 0;
+    text-decoration:underline
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+table,th,td {
+     border:1px solid black;
+     border-collapse:collapse;
+}
+ th,td {
+     padding: 10px;
+}
+ tr:nth-child(1) {
+     background-color:rainbow;
+}
+ tr:nth-child(6), tr:nth-child(2), tr:nth-child(3), tr:nth-child(4), tr:nth-child(5) {
+     background-color:rgba(50,0,0,0.4);
+}
+ tr:nth-child(7), tr:nth-child(8), tr:nth-child(9), tr:nth-child(10), tr:nth-child(11) {
+     background-color:lightblue;
+}
+ tr:nth-child(12), tr:nth-child(13), tr:nth-child(15), tr:nth-child(14), tr:nth-child(16) {
+     background-color:grey;
+}
+     
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header><center>
+   <p style="color:red;font-family:algerian">IGBooks Publisher</p>
+  <img src="logo.png" alt="Logo" style="width:90px;height:90px;" >
+  </center>
+</header>
+  
+<nav>
+  <ul style="text-decoration:underline">
+    <li><a href="homepage.htm">Home</a></li>
+    <li><a href="books.htm">Books</a></li>
+    <li><a href="purchase.htm">Purchase</a></li>
+    <li><a href="status.htm">Status of purchase</a></li>
+    <li><a href="feedback.htm">Feedback</a></li>  
+</ul>
+</nav>
+
+<article>
+  <table>
+   <caption style="font-family:informal roman;color:tomato"><u><h1>OUR COLLECTIONS :</h1></u></caption><br>
+    <tr>
+     <th>CATEGORY</th>
+     <th>NAME OF BOOK</th>
+     <th>AUTHOR</th>
+     <th>PRICE(in Rs.)</th>
+     <th>STATUS</th>
+    </tr>
+    <tr>
+      <th rowspan="5">JAVA</th>
+      <td>Head First Java</td>
+      <td>Kathy Sierra</td>
+      <td>600</td>
+      <td bgcolor="red">Purchased</td>
+    </tr>
+    <tr>
+       <td>Java:The Complete Reference</td>
+       <td>Herbert Schildt</td>
+       <td>810</td>
+       <td bgcolor="red">Purchased</td>
+      </tr>
+     <tr>
+       <td>Data Structure And Algorithms</td>
+       <td>Narshimha Krumanchi</td>
+       <td>499</td>
+       <td bgcolor="red">Purchased</td>
+     </tr>
+    <tr>
+      <td>Fundamentals Of Java-2nd edition</td>
+      <td>Cary S. Hortsman</td>
+      <td>550</td>
+      <td bgcolor="green">Not Purchased</td>
+    </tr>
+   <tr>
+      <td>Let Us Java- 4th edition</td>
+      <td>Yashwant Kanetkar</td>
+      <td>315</td>
+      <td bgcolor="green">Not Purchased</td>
+    </tr>
+
+    <tr>
+      <th rowspan="5">VISUAL STUDIO</th>
+      <td>Mastering Visual Studio 2017</td>
+      <td>Kunal Chowdhury</td>
+      <td>1019</td>
+      <td bgcolor="red">Purchased</td>
+    </tr>
+    <tr>
+       <td>VISUAL STUDIO 2017:From novice to expert</td>
+       <td>Michel Redcar</td>
+       <td>228</td>
+       <td bgcolor="green">Not Purchased</td>
+      </tr>
+     <tr>
+       <td>Building Web Application with Visual Studio 2017</td>
+       <td>Kevin Nicolos</td>
+       <td>2485</td>
+       <td bgcolor="red">Purchased</td>
+     </tr>
+    <tr>
+      <td>Begining C# 7 Programming With Visual Studio 2017</td>
+      <td>Jacob Vibe Hmmer</td>
+      <td>2924</td>
+      <td bgcolor="green">Not Purchased</td>
+    </tr>
+   <tr>
+      <td>C# 7 AND VISUAL STUDIO 2017</td>
+      <td>Albert Green</td>
+      <td>199</td>
+      <td bgcolor="green">Not Purchased</td>
+    </tr>
+
+    <tr>
+      <th rowspan="5">MICROPROCESSOR</th>
+      <td>Advanced Microprocessor and Peripherals</td>
+      <td>A. K. Ray</td>
+      <td>345</td>
+      <td bgcolor="red"> Not Purchased</td>
+    </tr>
+    <tr>
+       <td>Microprocessors and Its Interfacing - SIE</td>
+       <td>S S S P Rao</td>
+       <td>490</td>
+       <td bgcolor="green">Not Purchased</td>
+      </tr>
+     <tr>
+       <td>Microprocessor Architecture, Programming and Applications with the 8085 6/e</td>
+       <td>Ramesh Gaonkar</td>
+       <td>380</td>
+       <td bgcolor="green"> Not Purchased</td>
+     </tr>
+     <tr>
+      <td>Ten Days with 8085 Microprocessor</td>
+      <td>Krishnamurthy K.A</td>
+      <td>199</td>
+      <td bgcolor="red">Purchased</td>
+    </tr>
+    <tr>
+      <td>Microprocessors and Microcontrollers</td>
+      <td>Senthil Kumar</td>
+      <td>521</td>
+      <td bgcolor="red">Purchased</td>
+    </tr>
+
+
+</table>
+</article>
+
+<footer>WD#raks <br> Copyright &copy;IGBooks.co.in</footer>
+
+</div>
+
+</body>
+</html>
+
+
+
